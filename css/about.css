@@ -1,0 +1,13 @@
+.about {
+    padding-top: 93px;
+    padding-bottom: 115px;
+}
+.about h2 {
+    margin-bottom: 76px;
+}
+.about p {
+    margin-bottom: 30px;
+}
+.about p:last-child {
+    margin-bottom: 0;
+}

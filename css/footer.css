@@ -1,0 +1,41 @@
+footer {
+    padding-top: 50px;
+    padding-bottom: 140px;
+}
+
+footer h2 {
+    margin-bottom: 51px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content ul {
+    width: 35%;
+}
+.footer-content a {
+    font-size: 18px;
+    margin-bottom: 14px;
+    display: block; /* присвоили а блок что бы повесить на них margin*/
+}
+
+
+.footer-content li:last-of-type a {
+    margin-bottom: 0;
+}
+
+.credentials {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Button toTop */
+.to-top {
+    position: fixed;
+    bottom: 70px;
+    right: 180px;
+}
+.to-top img {
+    transform: rotate(90deg);
+}

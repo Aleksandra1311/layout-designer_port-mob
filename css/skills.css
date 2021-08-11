@@ -1,0 +1,69 @@
+.skills {
+    background-color: #FFFAF2;
+    padding-top: 93px;
+    padding-bottom: 145px;
+}
+.skills h2 {
+    margin-bottom: 86px;
+}
+.skills-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills-content img {
+    width: 350px;
+    margin-right: 125px;
+}
+.skills-list {
+    flex-grow: 1; /* прижали эту секцию к началу свободного пространства*/
+}
+.skills-list li {
+    margin-bottom: 20px;
+}
+
+.skills-list li:first-of-type {
+    margin-bottom: 65px;
+}
+
+.skills-list li:last-of-type {
+    margin-bottom: 0;
+}
+
+.skills-list-row {
+    display: flex;
+    justify-content: space-between;
+}
+.skills-list-row:first-of-type {
+    margin-bottom: 20px;
+}
+
+.skills-list-title {
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+    width: 190px;
+    padding-right: 10px;
+}
+
+.skills-list-value {
+    font-size: 18px;
+    color: #333333;
+    flex-grow: 1; /* заняло все пространство и сместило все вначало*/
+}
+.progress-bar {
+    display: block;
+    height: 24px;
+    background-color: #F5D6AB;
+    position: relative;
+    overflow: hidden;
+}
+.progress-step {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 60%;
+    background-color: #C66C49;
+
+}

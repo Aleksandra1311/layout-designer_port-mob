@@ -1,0 +1,54 @@
+.portfolio {
+    padding-top: 93px;
+    padding-bottom: 145px;
+}
+.portfolio h2 {
+    padding-bottom: 86px;
+}
+
+.portfolio-content {
+    align-self: stretch; /*подняли секцию вверх*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 125px;
+}
+.portfolio-content h3 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 48px;
+}
+.portfolio-content p {
+    margin-bottom: 16px;
+    flex-grow: 1; /*прибилось к началу всего своб пространства*/
+}
+.portfolio-slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+}
+.arrow-right {
+    transform: rotate(180deg); /*развернули стрелочку*/
+    margin-left: 14px;
+}
+/* Раскладка изображений */
+
+.portfolio-images {
+    display: flex;
+    flex-grow: 1;
+    padding-top: 68px;
+}
+.portfolio-images-col img {
+    width: 100%;
+}
+.portfolio-images-col img:first-of-type {
+    margin-bottom: 30px;
+}
+.portfolio-images-col:first-of-type {
+    width: 350px;
+    margin-right: 30px;
+}
+.portfolio-images-col:last-of-type {
+    width: 255px;
+}

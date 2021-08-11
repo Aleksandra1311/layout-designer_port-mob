@@ -1,0 +1,15 @@
+.hero-container {
+    color: white;
+}
+h1 {
+    font-size: 64px;
+    margin-bottom: 26px;
+}
+.hero-container p {
+    font-size: 24px;
+    margin-bottom: 106px;
+}
+.hero-container a {
+    font-size: 18px;
+    text-decoration: underline;
+}

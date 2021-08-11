@@ -1,0 +1,258 @@
+
+@media (max-width: 1200px) {
+    .container {
+        width: 85%;
+    }
+    .hero-container {
+        text-align: center;
+    }
+    .title {
+        text-align: center;  
+    }
+    .text {
+        text-align: justify;
+    }
+    .skills-content img {
+        width: 40%;
+        margin-right: 70px;
+    }
+    .skills-list-title {
+        width: 145px;
+    }
+    .skills-list-value {
+        font-size: 14px;
+    }
+    .portfolio-content {
+        margin-right: 30px;
+    }
+    .portfolio-images {
+        width: 520px;
+    }
+    .portfolio-images-col:first-of-type {
+        width: 350px;
+        margin-right: 20px;
+    }
+    .portfolio-images-col img:first-of-type {
+        margin-bottom: 20px;
+    }
+}
+
+/*  890 */
+
+@media (max-width: 890px) {
+    .container {
+        width: 90%;
+    }
+    .nav-list {
+        gap: 50px;
+    }
+    .about {
+        padding-top: 45px;
+        padding-bottom: 50px;
+    }
+    .about h2 {
+        margin-bottom: 35px;
+    }
+    .skills {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .skills h2 {
+        margin-bottom: 60px;
+    }
+    .skills-list li {
+        margin-bottom: 5px;
+    }
+    .skills-list li:first-of-type {
+        margin-bottom: 40px;
+    }
+    .skills-content img {
+        width: 40%;
+        margin-right: 50px;
+    }
+    .skills-list-title {
+        font-size: 15px;
+    }
+    .portfolio {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .portfolio h2 {
+        padding-bottom: 40px;
+    }
+    .portfolio h3 {
+        font-size: 16px;
+    }
+    .portfolio-content p {
+        font-size: 14px;
+        line-height: 1.25;
+    }
+    
+    .portfolio-images {
+        width: 400px;
+    }
+    .portfolio-images-col:first-of-type {
+        width: 350px;
+        margin-right: 10px;
+    }
+    .portfolio-images-col img:first-of-type {
+        margin-bottom: 10px;
+    }
+    footer {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+}
+
+/* 720 */
+
+
+@media (max-width: 720px) {
+    .container {
+        width: 85%;
+    }
+    .hero {
+        padding-top: 45px;
+    }
+    .nav-list {
+        gap: 35px;
+    }
+    .nav-list a {
+        font-size: 10px;
+    }
+    .skills h2 {
+        margin-bottom: 50px;
+    }
+    .skills-list li:first-of-type {
+        margin-bottom: 30px;
+    }
+    .skills-list-title {
+        font-size: 14px;
+    }
+    .skills-list-value {
+        font-size: 12px;
+    }
+    .skills-list-title {
+        width: 120px;
+    }
+    .progress-bar {
+        height: 17px;
+    }
+    .skills-content img {
+        margin-right: 40px;
+    }
+    .portfolio-images {
+        width: 70%;
+        padding-top: 50px;
+    }
+    .portfolio-content h3 {
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+    .footer-content a {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    .to-top {
+        bottom: 60px;
+        right: 100px;
+    }
+}
+
+/* 720 */
+
+
+@media (max-width: 580px) {
+    .container {
+        width: 85%;
+    }
+    header {
+        margin-bottom: 60px;
+    }
+    .hero-container {
+        padding-bottom: 60px;
+    }
+    .hero-container h1 {
+        font-size: 20px;
+    }
+    .hero {
+        height: 100%;
+    }
+    .hero-container p {
+        font-size: 13px;
+        margin-bottom: 60px;
+    }
+    .hero-container a {
+        font-size: 13px;
+    }
+    .about p {
+        font-size: 14px;
+    }
+    .portfolio-content p {
+        font-size: 12px;
+    }
+    .portfolio-content h3 {
+        font-size: 14px;
+    }
+    .portfolio-content p {
+        margin-bottom: 8px;
+    }
+    .footer-content a {
+        font-size: 14px;
+    }
+    .to-top {
+        bottom: 58px;
+        right: 32px;
+    }
+
+}
+
+/* 500 */
+@media (max-width: 500px) {
+    .container {
+        width: 85%;
+    }
+    
+    .nav-list {
+        display: flex;
+        gap: 10px;
+    }
+    .nav-list a {
+        font-size: 5px;
+    }
+    .skills-content {
+        display: grid;
+        gap: 26px;
+    }
+    .skills {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .skills-content img {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skills h2 {
+        margin-bottom: 25px;
+    }
+    .portfolio-slide {
+        flex-direction: column;
+    }
+    .portfolio-content {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .portfolio-images {
+        width: 100%;
+    }
+    .portfolio-arrows {
+        display: none;
+    }
+    .footer-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
